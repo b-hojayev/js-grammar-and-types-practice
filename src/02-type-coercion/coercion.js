@@ -41,7 +41,7 @@ const tests = [
   // Reason: {} is interpreted as an empty block, not an object literal.
   // The expression becomes +[], and [] is converted to 0.
 
-  {} + [], // "[object Object]" (expression context)
+  //({} + []),  "[object Object]" (expression context)
 
   true + false,
   // Result: 1
